@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+    <h1>Добро пожаловать на главную страницу!</h1>
+    <p>Это главная страница нашего сайта. Здесь вы можете найти основную информацию о проекте.</p>
+    <div class="alert alert-info" role="alert">
+        Используйте меню наверху для навигации по сайту.
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Новость 1</h5>
+                    <p class="card-text">Краткое описание новости или события.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Новость 2</h5>
+                    <p class="card-text">Еще одно важное сообщение.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Новость 3</h5>
+                    <p class="card-text">Последние обновления.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
